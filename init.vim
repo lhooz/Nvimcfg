@@ -53,3 +53,13 @@ call neomake#configure#automake('nrwi', 500)
 colorscheme gruvbox
 
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+
+set shiftwidth=4
+
+set softtabstop=4
+
+set expandtab
+
+set relativenumber
+
+
