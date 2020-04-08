@@ -10,7 +10,9 @@ set splitbelow
 
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
-Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline'
+
+Plug 'itchyny/lightline.vim'
 
 Plug 'jiangmiao/auto-pairs'
 
@@ -62,4 +64,4 @@ set expandtab
 
 set relativenumber
 
-
+tnoremap <Esc> <C-\><C-n>
